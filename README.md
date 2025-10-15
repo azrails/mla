@@ -29,6 +29,7 @@ You can start the agent using either a description file or a direct text prompt:
 export OPENAI_API_KEY=<your‑key>
 # 2 Set an LLM base url compatible with openai api (e.g https://.../v1, for example for ollama compatible api usage)
 export OPENAI_BASE_URL=<base-url>
+# 3 also for clear ollama api usage set OPENAI_BASE_URL to simple https://ip:port
 
 agent data_dir=<path_to_data_dir> desc_file=<path_to_description_file>
 # or
